@@ -1,0 +1,62 @@
+
+.general {
+  width: 30vw;
+  height: 20vw;
+  background-color: rgba(240, 248, 255, 0.265);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+    font-size:x-large;
+    text-align: center;
+    color: rgb(52, 43, 43) ;
+}
+h2 {
+    font-size: medium;
+    text-align: right;
+}
+h4 {
+    font-size: medium;
+    text-align: end;
+}
+
+button{
+    align-self: flex-end;
+    border-style: none;
+    border-radius: 5px;
+    align-self: flex-end;
+    background-color:rgba(240, 248, 255, 0.442);
+}
+a{
+    font-size: medium;
+    color: black;
+    border-bottom-style: none;
+}
+a:hover{
+  
+    color: rgb(23, 107, 107);
+}
+
+@media (max-width: 500px){
+    .general{
+        width: 90vw;
+    height: 20vw;
+  background-color: rgba(240, 248, 255, 0.265);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+    }
+    h1, h2, h4, .par, a{
+        font-size: x-small;
+    }
+    
+} 
+
+@media (min-width:500px) and (max-width: 1023px) {
+    h1, h2, h4, .par, a{
+        font-size: small;
+    }
+}

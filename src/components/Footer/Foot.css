@@ -1,0 +1,10 @@
+.Foot{
+    margin-top: 15px;
+    background-color: rgb(84, 82, 82);
+}
+.Foot h1 {
+    font-size:xx-large;
+    text-align: center;
+    color: rgb(233, 244, 246);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

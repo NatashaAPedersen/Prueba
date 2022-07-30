@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    padding: 0.5rem;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(84, 82, 82);
+}
+
+.spn {
+    margin: 0 auto;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(233, 244, 246);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 500px){
+    .spn{
+        font-size:x-large;
+    }
+}
